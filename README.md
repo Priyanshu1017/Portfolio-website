@@ -21,7 +21,7 @@ Installation
 
     bash
 
-    git clone https://github.com/your-username/portfolio-app.git
+    git clone https://github.com/Priyanshu1017/portfolio-webseit.git
 
     Open the index.html file in your preferred web browser.
 
@@ -44,8 +44,8 @@ Contact
 
 If you have any questions, suggestions, or just want to say hello, you can reach me at:
 
-    Email: your-email@example.com
-    LinkedIn: Your LinkedIn Profile
+    Email: priyanshupathak1017@example.com
+    LinkedIn: https://www.linkedin.com/in/priyanshu-pathak-743236243
 
 Feel free to update the sections, add more details, or customize the README file according to your portfolio app's specific features and requirements.
 
