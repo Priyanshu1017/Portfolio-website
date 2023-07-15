@@ -166,6 +166,7 @@ nav ul li {
 }
 
 .skills-wrapper {
+    position: relative;
     display: flex;
     gap: 1.25rem;
     flex-direction: column;
@@ -213,6 +214,7 @@ nav ul li {
     width: 21.875rem;
     min-height: 23rem;
     padding: 1rem;
+    
 }
 
 .project-container p {
@@ -414,18 +416,36 @@ footer {
         height: 37.5rem;
         width: 23rem;
     }
-
+    h6{
+        display: none;
+    }
     .bio {
         width: 18.3rem;
     }
+    .skills-wrapper{
+        animation: slide 8s infinite ease-in-out;
+        
+    }
+    
 
     .project-container {
-        width: 17.875rem;
+        width: 23.875rem;
+    }
+    
+    .education-form-container {
+        width: 23.875rem;
+       
+    }
+}
+@keyframes slide {
+    
+    from{
+        left:-111vw
+    }
+    to{
+        left:120vw
     }
 
-    .education-form-container {
-        max-width: 50vw;
-    }
 }
 
 .image-container {
